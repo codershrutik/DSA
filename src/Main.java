@@ -6,10 +6,11 @@ public class Main
         LinkedList myLinkedList = new LinkedList(1);
         myLinkedList.append(2);
 
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getHead();
-
-        myLinkedList.printList();
+        // Returns Node 2
+        System.out.println(myLinkedList.removeLast());
+        // Returns Node 1
+        System.out.println(myLinkedList.removeLast());
+        // Returns null
+        System.out.println(myLinkedList.removeLast());
     }
 }
