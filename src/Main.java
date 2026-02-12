@@ -8,5 +8,17 @@ public class Main
         myLinkedList.prepend(0);
 
         myLinkedList.printList();
+
+        myLinkedList.removeFirst();
+        System.out.println("After removing first, the linked List is");
+        myLinkedList.printList();
+
+        myLinkedList.removeFirst();
+        System.out.println("After removing first, the linked List is");
+        myLinkedList.printList();
+
+        myLinkedList.removeFirst();
+        System.out.println("After removing first, the linked List is");
+        myLinkedList.printList();
     }
 }
